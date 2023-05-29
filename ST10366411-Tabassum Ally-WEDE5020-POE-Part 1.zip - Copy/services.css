@@ -1,0 +1,62 @@
+body{
+    background-image: url(/images/servicesbackground.jpg);
+    background-position : center ;
+            background-attachment : fixed;
+           background-size : 60%;
+}
+nav{
+    display: flex;
+    padding: 14px 16px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+nav img{
+    width: 200px;
+}
+.nav-links{
+    flex: 1;
+    text-align: left;
+}
+.nav-links ul li{
+    list-style: none;
+    display: flow-root;
+    padding: 40px 40px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links a:hover{
+    color: black;
+    background-color: rgb(242, 189, 191);
+    border-color: rgb(199, 145, 145);
+    border-radius: 5px;
+    font-size: 22px;
+    
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120px;
+    text-align: center;
+    background-color:rgba(252, 132, 132, 0.785) ; 
+    background-blend-mode: lighten;
+}
+table, th, td {
+    font-family: 'Times New Roman', Times, serif;
+    border-style: double;
+    border: 10px solid rgb(0, 0, 0);
+    font-size: large;
+    table-layout: fixed;
+    padding: 10px;
+    background-color: rgba(252, 132, 132, 0.785) ;
+}
+.footer{
+background-color: #161616b4;
+padding: 35px;
+text-align: center;
+color: aliceblue;
+font-size: 16.5px;
+}

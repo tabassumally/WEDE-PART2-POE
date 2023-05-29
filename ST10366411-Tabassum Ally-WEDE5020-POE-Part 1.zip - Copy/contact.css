@@ -1,0 +1,111 @@
+body{
+    background-image: url(/images/contactbackground.jpg);
+    background-position : center ;
+            background-attachment : fixed;
+           background-size : 60%;
+}
+nav{
+    display: flex;
+    padding: 14px 16px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+nav img{
+    width: 200px;
+}
+.nav-links{
+    flex: 1;
+    text-align: left;
+}
+.nav-links ul li{
+    list-style: none;
+    display: flow-root;
+    padding: 40px 40px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links a:hover{
+    color: black;
+    background-color: rgb(242, 189, 191);
+    border-color: rgb(199, 145, 145);
+    border-radius: 5px;
+    font-size: 22px;
+    
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px;
+    text-align: center;
+    background-color:rgba(252, 132, 132, 0.785) ; 
+    background-blend-mode: lighten;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    text-align: center;
+    background-color: rgba(252, 132, 132, 0.785); 
+    background-blend-mode: lighten;
+    background-clip: padding-box;
+}
+table, th, td {
+    font-family: 'Times New Roman', Times, serif;
+    border-style: double;
+    border: 3px solid rgb(3, 3, 3);
+    font-size: large;
+    table-layout: fixed;
+    padding: 10px;
+    margin-left: 450px ;
+    background-color: rgba(252, 132, 132, 0.785) ;
+}
+input{
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 320px;
+    height: 47px;
+    background-color: #1f1e1e;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+input::placeholder{
+    font-size: 19px;
+    margin-left: 450px;
+    padding: 12px;
+    text-align: left;
+    float: center;
+    border: 1px;
+    border-style: solid;
+    position: relative;
+    width: 320px;
+    height: 45px ;
+}
+
+input[type=submit]{
+    width: 200px;
+    height: 45px;
+    background-color:  rgba(221, 87, 87, 0.785);
+    color: #010101;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.form {
+    float: center;
+    margin-left:325px;
+    color:  #161616b4;
+    text-decoration: none;
+}
+.footer{
+background-color: #161616b4;
+padding: 35px;
+text-align: center;
+color: aliceblue;
+font-size: 16.5px;
+}
